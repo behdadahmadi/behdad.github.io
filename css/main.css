@@ -1,0 +1,59 @@
+body{
+
+}
+
+.container {
+    display: -webkit-flex;
+  
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    margin:0
+
+}
+.left-section{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    background-color: #40514e;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.right-section{
+    display: flex;
+    flex:1;
+    background-color: #e4f9f5;
+}
+#name{
+    font-family: 'Lato', sans-serif;
+    font-size: 4rem;
+    
+    color:#30e3ca;    
+}
+#info{
+    font-size: 2rem;
+    color:#e4f9f5;
+}
+.top-bar{
+    position: fixed;
+    top:0;
+    left:0;
+    
+}
+
+.left-section .top-bar{
+    background: transparent;
+}
+.left-section .top-bar .menu{
+    background: transparent;
+}
+.left-section .top-bar .menu a{
+    
+    color:#11999e;
+}
+
